@@ -1,0 +1,133 @@
+.heading h1{
+    font-size: 80px;
+    font-family: caveat, serif;
+}
+@media screen and (max-width: 540px){
+    .heading h1{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    body{
+        background-size: contain;
+    }
+}
+
+.para-1{
+    font-size: 18px;
+    line-height: 35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(43, 42, 42, 0.699);
+    font-weight: 500;
+}
+#para-2{
+    background-color: rgba(0, 255, 255, 0.414);
+    width: auto;
+    color: rgba(35, 21, 143, 0.86);
+    font-family: gluten, serif;
+    font-weight: 600;
+}
+#para-3{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline double;
+}
+
+.bullet-tips{
+    text-align: center;
+    background-color: rgba(41, 255, 255, 0.204);
+}
+.col-lg-8 ul li{
+    list-style-type: none;
+}
+.points p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px rgb(204, 204, 218);
+    font-weight: 600;
+}
+.points li{
+    font-size: 15px;
+    color:rgba(37, 36, 36, 0.866);
+    font-weight: 400;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-container img{
+    width: 330px;
+    height: 500px;
+    box-shadow: 2px 2px 20px 2px rgba(42, 42, 42, 0.603);
+}
+#SummerTrends{
+    background-color: rgba(0, 255, 255, 0.414);
+    width: 50%;
+    color: rgba(35, 21, 143, 0.86);
+    font-family: gluten, serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 50px;
+    animation: SummerTrends 4s step-end 0.1s infinite;
+}
+@keyframes SummerTrends {
+    0% {background-color: rgba(0, 255, 255, 0.414);}
+    30% {background-color: rgba(51, 255, 0, 0.414);}
+    60% {background-color: rgba(238, 0, 255, 0.414);}
+    90% {background-color: rgba(255, 255, 0, 0.414);}
+    100% {background-color: rgba(255, 123, 0, 0.414);}
+}
+
+@media only screen and (max-width: 600px) {
+    /* Update styles for smaller devices */
+    .container-fluid {
+        padding: 10px;
+    }
+
+    h2#SummerTrends {
+        font-size: 22px;
+        width: 70%;
+    }
+}
+
+.trends img{
+    width: 370px;
+    height: 460px;
+}
+.trends h4{
+    font-size: 33px;
+    font-family: mukta vaani, serif;
+    font-weight: 900;
+    text-shadow: 2px 2px rgb(216, 215, 215);
+}
+.trends p{
+    font-family: 'Arial ', Arial, sans-serif;
+    line-height: 32px;
+}
+
+.inputDiv{
+    background-color: rgba(45, 111, 216, 0.362);
+    width: 50%;
+    height: 140px;
+    padding: 20px;
+    padding-top: 30px;
+}
+.inputDiv label{
+    font-weight: 600;
+    font-size: 15px;
+    color: rgba(13, 13, 13, 0.788);
+    padding: 10px;
+}
+.inputDiv input{
+    border: 2px solid rgba(0, 5, 255, 0.932);
+    box-shadow: 2px 2px antiquewhite;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.inputDiv input:hover{
+    border: none;
+    background-color: antiquewhite;
+    box-shadow: 1px 1px 10px 3px rgba(172, 255, 47, 0.685);
+    transition: 0.2s;
+}

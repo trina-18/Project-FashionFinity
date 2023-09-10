@@ -1,0 +1,114 @@
+.background{
+    background-image: radial-gradient(rgba(247, 247, 247, 0.868), rgba(209, 151, 218, 0.63));
+}
+
+#title pre{ 
+    margin: auto;
+    font-size: 48px;
+    font-family: Barrio, cursive;
+    padding: 10px;
+    text-shadow: 6px 5px 8px rgba(15, 27, 28, 0.714);
+    background-color: rgba(242, 174, 48, 0.405);
+    width: 37%;
+    color: rgb(238, 19, 110);
+    text-align: center;
+} 
+
+.myName{
+    text-align: center;
+    width: 20%;
+    color: rgba(0, 0, 0, 0.508);
+    font-family: Caveat, cursive;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+#nav{
+    width: 100%;
+    height: 57px;
+    text-align: center;
+    border-bottom: 3px solid rgba(85, 85, 85, 0.574);
+}
+
+.navigation{
+    position: relative;
+    display: inline-block;
+    /*margin-top: 20px;*/
+    padding: 20px; 
+}
+
+.navigation a{
+    text-decoration: none; 
+    font-weight: bold;
+    color: rgba(3, 3, 3, 0.984);
+    background-color: rgba(211, 85, 127, 0.812);
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px inset rgba(67, 67, 67, 0.545);
+}
+
+.navigation a:hover{
+    background-color: black;
+    color: rgb(255, 12, 113);
+    text-shadow: 2px 1px 2px rgba(169, 166, 166, 0.79);
+}
+
+.lh-lg{
+    margin: auto;
+    width: 60%;
+    font-family: Text me one, cursive;
+    color: rgba(0, 0, 0, 0.74);
+}
+
+#hr-1{
+    width: 50%;
+    height: 6px;
+    background-color: rgba(85, 82, 82, 0.689);
+}
+
+.card-title{
+    font-family: train one, cursive;
+    color: rgba(95, 4, 56, 0.532);
+    font-weight: 700;
+    font-size: 40px;
+}
+.card-text{
+    font-family: raleway dots, cursive;
+    font-weight: 800;
+    color:rgba(0, 0, 0, 0.733);
+    font-style: italic;
+}
+
+#gallery{
+    width: 90%;
+    margin: auto;
+}
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: inline-block;
+}
+
+#footer-title{ 
+    color: rgb(238, 19, 110);
+    font-family: Barrio, cursive;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+    margin-top: 50px;
+}
+
+.footer-nav{
+    font-size: 20px;
+    font-family: Gotu, cursive;
+    color:rgba(240, 248, 255, 0.666);
+    text-align: center;
+}
+.footer-nav a{
+    text-decoration: none;
+    color:rgba(240, 248, 255, 0.666);
+}
+.footer-nav a:hover{
+    color:rgba(255, 12, 113, 0.826);
+}
