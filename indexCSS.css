@@ -43,10 +43,11 @@
 .card{
     margin: 20px;
     background-image: radial-gradient( rgba(0, 0, 0, 0.81), rgb(0, 0, 0)); 
-    
+    transition: transform 0.3s ease;
 }
 .card:hover{
     box-shadow: 3px 3px 12px 4px rgba(69, 68, 68, 0.485);
+    transform: scale(1.05);
 }
 .card img{
     height: 340px;
@@ -107,6 +108,18 @@
     width: 90%;
     margin: auto;
 }
+#gallery img{
+    transition: transform 0.3s ease;
+}
+#gallery img:hover{
+    transform: scale(1.06);
+}
+
+.cap{
+    font-family: text me one, serif;
+    font-weight: 600;
+    opacity: 0.8;
+}
 
 #hr-3{
     width: 70%;
@@ -123,6 +136,15 @@
     font-weight: 600;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-shadow: 2px 2px rgba(83, 83, 83, 0.533);
+}
+.subscribeBtn{
+    transition: transform 0.2s ease;
+}
+.subscribeBtn:hover{
+     transform: scale(1.02);
+}
+.subscribeBtn:active{
+    transform: scale(0.9);
 }
 
 .footerTitle{
